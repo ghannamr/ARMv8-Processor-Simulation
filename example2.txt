@@ -1,0 +1,5 @@
+ADD  X21, XZR, XZR
+LDUR X9,  [X21, #0]
+LDUR X10, [X21, #1]
+ADD  X11, X9,  X10
+STUR X11, [X21, #2]
